@@ -16,6 +16,7 @@ import UseEffect_Example from './components/UseEffect_Example'
 import Usestate_Example2 from './components/Usestate_Example2'
 import Ternary_operator from './components/Ternary_operator'
 import FormEvents from './components/FormEvents'
+import Displaydata from './components/Displaydata'
 function App() {
 
   const name = "Harshitha"
@@ -43,7 +44,8 @@ function App() {
       {/*<UseEffect_Example/>*/}
       {/*<Usestate_Example2/>*/}
       {/*<Ternary_operator/>*/}
-      <FormEvents/>
+      {/*<FormEvents/>*/}
+      <Displaydata/>
    </div>
   
   )
