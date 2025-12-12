@@ -19,6 +19,8 @@ import FormEvents from './components/FormEvents'
 import Displaydata from './components/Displaydata'
 import Userdata from './components/Userdata'
 import Comments from './components/Comments'
+import Albums from './components/Albums'
+import Photos from './components/Photos'
 function App() {
 
   const name = "Harshitha"
@@ -49,7 +51,9 @@ function App() {
       {/*<FormEvents/>*/}
       {/*<Displaydata/>*/}
       {/*<Userdata/>*/}
-      <Comments/>
+      {/*} <Comments/>*/}
+      {/*<Albums/>*/}
+      <Photos/>
    </div>
   
   )
