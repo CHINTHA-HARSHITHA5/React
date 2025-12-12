@@ -17,6 +17,8 @@ import Usestate_Example2 from './components/Usestate_Example2'
 import Ternary_operator from './components/Ternary_operator'
 import FormEvents from './components/FormEvents'
 import Displaydata from './components/Displaydata'
+import Userdata from './components/Userdata'
+import Comments from './components/Comments'
 function App() {
 
   const name = "Harshitha"
@@ -45,7 +47,9 @@ function App() {
       {/*<Usestate_Example2/>*/}
       {/*<Ternary_operator/>*/}
       {/*<FormEvents/>*/}
-      <Displaydata/>
+      {/*<Displaydata/>*/}
+      {/*<Userdata/>*/}
+      <Comments/>
    </div>
   
   )
