@@ -22,6 +22,7 @@ import Comments from './components/Comments'
 import Albums from './components/Albums'
 import Photos from './components/Photos'
 import Todos from './components/Todos'
+import Users from './components/Users'
 function App() {
 
   const name = "Harshitha"
@@ -55,7 +56,8 @@ function App() {
       {/*} <Comments/>*/}
       {/*<Albums/>*/}
       {/*<Photos/>*/}
-      <Todos/>
+      {/*<Todos/>*/}
+      <Users/>
    </div>
   
   )
