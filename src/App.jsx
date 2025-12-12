@@ -13,6 +13,7 @@ import Increment_decrement from './hooks/Increment_decrement'
 import Usestate_string from './hooks/Usestate_string'
 import Usestate_example from './components/Usestate_example'
 import UseEffect_Example from './components/UseEffect_Example'
+import Usestate_Example2 from './components/Usestate_Example2'
 function App() {
 
   const name = "Harshitha"
@@ -37,7 +38,8 @@ function App() {
       {/*<Increment_decrement/>*/}
       {/*<Usestate_string />*/}
       {/*<Usestate_example/>*/}
-      <UseEffect_Example/>
+      {/*<UseEffect_Example/>*/}
+      <Usestate_Example2/>
    </div>
   
   )
