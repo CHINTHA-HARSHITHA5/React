@@ -61,7 +61,7 @@ function App() {
       {/*<Todos/>*/}
       {/*<Users/>*/}
       <Spread_operator/>
-      <Rest_operator/>
+      
    </div>
   
   )
