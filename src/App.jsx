@@ -23,7 +23,7 @@ import Albums from './components/Albums'
 import Photos from './components/Photos'
 import Todos from './components/Todos'
 import Users from './components/Users'
-import Spread_operator from './components/Spreads_operator'
+import Spread_operator from './components/Spread_operator'
 import Rest_operator from './components/Rest_operator'
 function App() {
 
@@ -60,7 +60,8 @@ function App() {
       {/*<Photos/>*/}
       {/*<Todos/>*/}
       {/*<Users/>*/}
-      <Spread_operator/>
+      {/*<Spread_operator/>*/}
+      <Rest_operator/>
       
    </div>
   
