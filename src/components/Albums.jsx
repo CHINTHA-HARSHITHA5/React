@@ -19,6 +19,7 @@ const Albums = () => {
   return (
     <div>
         <h1>This is Albums component</h1>
+        <h2>Total albums:{data.length}</h2>
         {data.map((c) => (
             <div key={c.id}>
                 <div>"userId:"{c.userId}</div>

@@ -17,6 +17,7 @@ const UserData = () => {
 
   return (
     <div>
+      <h2>Total userdata:{data.length}</h2>
       {
         data.map(item => (
           <div key={item.id}>

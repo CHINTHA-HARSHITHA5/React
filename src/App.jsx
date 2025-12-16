@@ -23,6 +23,8 @@ import Albums from './components/Albums'
 import Photos from './components/Photos'
 import Todos from './components/Todos'
 import Users from './components/Users'
+import Spread_operator from './components/Spreads_operator'
+import Rest_operator from './components/Rest_operator'
 function App() {
 
   const name = "Harshitha"
@@ -57,7 +59,9 @@ function App() {
       {/*<Albums/>*/}
       {/*<Photos/>*/}
       {/*<Todos/>*/}
-      <Users/>
+      {/*<Users/>*/}
+      <Spread_operator/>
+      <Rest_operator/>
    </div>
   
   )

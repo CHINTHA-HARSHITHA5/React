@@ -18,7 +18,7 @@ const Users = () => {
   return (
     <div>
       <h1>Users Data</h1>
-
+      <h2>count:{data.length}</h2>
       {data.map((user) => (
         <div key={user.id}>
           <div>ID: {user.id}</div>
@@ -41,9 +41,6 @@ const Users = () => {
           <div>Company Name: {user.company.name}</div>
           <div>Catch Phrase: {user.company.catchPhrase}</div>
           <div>BS: {user.company.bs}</div>
-
-          
-
           <hr />
         </div>
       ))}

@@ -20,6 +20,7 @@ const Comments = () => {
   return (
     <div>
       <h1>This is Comments component</h1>
+      <h2>Total comments:{data.length}</h2>
       {data.map((c) => (
         <div key={c.id}>
           <div>"postId":{c.postId}</div>

@@ -20,6 +20,7 @@ const Photos = () => {
   return (
     <div>
         <h1>This is photos component</h1>
+        <h2>Total photos:{data.photos}</h2>
         {data.map((c) => (
           <div key={c.id}>
             <div>"albumId":{c.albumId}</div>
