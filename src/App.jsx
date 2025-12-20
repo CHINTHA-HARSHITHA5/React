@@ -25,6 +25,12 @@ import Todos from './components/Todos'
 import Users from './components/Users'
 import Spread_operator from './components/Spread_operator'
 import Rest_operator from './components/Rest_operator'
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Service from './components/Service'
+import About_us from './components/About_us'
+import Contact_us from './components/Contact_us'
 function App() {
 
   const name = "Harshitha"
@@ -55,14 +61,22 @@ function App() {
       {/*<FormEvents/>*/}
       {/*<Displaydata/>*/}
       {/*<Userdata/>*/}
-      {/*} <Comments/>*/}
+      {/*<Comments/>*/}
       {/*<Albums/>*/}
       {/*<Photos/>*/}
       {/*<Todos/>*/}
       {/*<Users/>*/}
       {/*<Spread_operator/>*/}
-      <Rest_operator/>
-      
+      {/*<Rest_operator/>*/}
+      <Navbar/>
+      <BrowserRouter>
+      <Routes>/
+        <Route path="/home" element={<Home/>} />
+        <Route path="/services" element={<Service/>}/>
+        <Route path='/aboutus' element={<About_us/>}/>
+        <Route path='/contactus' element={<Contact_us/>}/>
+      </Routes>
+    </BrowserRouter>
    </div>
   
   )
